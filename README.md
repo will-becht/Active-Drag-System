@@ -27,8 +27,11 @@ The flight software implements a state machine to manage the deployment of drag 
 The `PCB Design` directory contains all the files related to the design and manufacturing of the rocket's printed circuit boards (PCBs). These PCBs are used to integrate the electronic components necessary for the rocket's operation.
 
 ### Images
-![Top Layer](PCB%20Design/Images/topLayer.png =200x)
-![Bottom Layer](PCB%20Design/Images/bottomLayer.png =200x)
+<div style="display: flex;">
+    <img src="PCB%20Design/Images/topLayer.png" alt="Top Layer" width="200" />
+    <img src="PCB%20Design/Images/bottomLayer.png" alt="Bottom Layer" width="200" />
+</div>
+
 ![Schematic](PCB%20Design/Images/schematic.png)
 
 ### Description
@@ -60,6 +63,7 @@ The `CAD` directory contains the design files for the system's structural compon
     <img src="CAD/pic3.PNG" alt="CAD Design" width="200" />
     <img src="CAD/pic4.PNG" alt="CAD Design" width="200" />
 </div>
+
 ![CAD Design](CAD/built.jpg)
 
 ### Description
