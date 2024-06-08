@@ -1,4 +1,4 @@
-# Rocketry Project
+# Active Drag System
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,8 +9,9 @@
 - [Installation](#installation)
 
 ## Introduction
-This project is focused on the development of an active drag system, or air brake, for a model rocket. This project demonstrates the designs of the various components, including the flight software, printed circuit board (PCB), OpenRocket analysis for the vehicle, and CAD drawings for the system. 
-Due to time constraints, the vehicle was never flown with an active drag system installed.
+This project is focused on the development of an active drag system, or air brake, for a model rocket competing in the NASA Student Launch competition (https://www.nasa.gov/learning-resources/nasa-student-launch/). This work was done on a non-competition vehicle as its advancements are intended to be used in future years' competitions.
+This project demonstrates the designs of the various components, including the flight software, printed circuit board (PCB), OpenRocket analysis for the vehicle, and CAD drawings for the system. 
+Due to time constraints and a focus on the main competition vehicle, the non-competition vehicle was never flown with an active drag system installed.
 
 ## Flight Software
 ### Overview
