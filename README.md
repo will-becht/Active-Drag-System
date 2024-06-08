@@ -27,11 +27,8 @@ The flight software implements a state machine to manage the deployment of drag 
 The `PCB Design` directory contains all the files related to the design and manufacturing of the rocket's printed circuit boards (PCBs). These PCBs are used to integrate the electronic components necessary for the rocket's operation.
 
 ### Images
-<div style="display: flex;">
-    <img src="PCB%20Design/Images/topLayer.png" alt="Top Layer" width="200" />
-    <img src="PCB%20Design/Images/bottomLayer.png" alt="Bottom Layer" width="200" />
-</div>
-
+![Top Layer](PCB%20Design/Images/topLayer.png)
+![Bottom Layer](PCB%20Design/Images/bottomLayer.png)
 ![Schematic](PCB%20Design/Images/schematic.png)
 
 ### Description
@@ -57,13 +54,10 @@ OpenRocket is a model rocket simulator that allows you to design and simulate th
 The `CAD` directory contains the design files for the system's structural components. This model was created in SolidWorks, and the files can be used to fabricate the parts using 3D printing.
 
 ### Images
-<div style="display: flex;">
-    <img src="CAD/pic1.PNG" alt="CAD Design" width="200" />
-    <img src="CAD/pic2.PNG" alt="CAD Design" width="200" />
-    <img src="CAD/pic3.PNG" alt="CAD Design" width="200" />
-    <img src="CAD/pic4.PNG" alt="CAD Design" width="200" />
-</div>
-
+![CAD Design](CAD/pic1.PNG)
+![CAD Design](CAD/pic2.PNG)
+![CAD Design](CAD/pic3.PNG)
+![CAD Design](CAD/pic4.PNG)
 ![CAD Design](CAD/built.jpg)
 
 ### Description
