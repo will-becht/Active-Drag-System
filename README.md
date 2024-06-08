@@ -2,65 +2,31 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Arduino Codes](#arduino-codes)
+- [Flight Software](#flight-software)
+- [PCB Design](#pcb-design)
 - [CAD](#cad)
 - [OpenRocket](#openrocket)
-- [PCB Design](#pcb-design)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
-This project is focused on the development of a model rocket, incorporating various aspects such as Arduino-based control systems, CAD designs for structural components, simulation and design using OpenRocket, and detailed PCB design for the electronics involved.
+This project is focused on the development of a model rocket, incorporating various aspects such as an active drag system, CAD designs for structural components, simulation and design using OpenRocket, and detailed PCB design for the electronics involved.
 
-## Arduino Codes
+## Flight Software
 ### Overview
-The `Arduino Codes` directory contains all the code necessary for the operation of the rocket's control systems. These include code for sensor integration, data logging, and motor control.
+The `Flight Software` section contains the code necessary for controlling the rocket's Active Drag System. This system adjusts the rocket's drag tabs based on readings from an altimeter and accelerometer to control the rocket's apogee.
 
 ### Image
-![Arduino Codes](Arduino%20Codes/sample_image.png)
-*(Replace `sample_image.png` with the actual image name if it exists in the `Arduino Codes` directory)*
+![Flight Software](Flight%20Software/sample_image.png)
+*(Replace `sample_image.png` with the actual image name if it exists in the `Flight Software` directory)*
 
 ### Description
-The Arduino code is crucial for ensuring the rocket operates as intended. It handles tasks such as sensor data acquisition, motor control, and communication between different components of the rocket.
+The `flightCode_Updated_v2.ino` file implements a state machine to manage the deployment of drag tabs in the Active Drag System. This system actively modulates the drag during flight to achieve a desired apogee by processing real-time data from the altimeter and accelerometer. The state machine ensures that the drag tabs are deployed or retracted based on the rocket's altitude and acceleration, thus controlling the peak altitude accurately.
 
 ### Code Highlights
-- `main.ino`: The primary code file for the rocket's Arduino-based control system.
-- `sensors.ino`: Handles the integration of various sensors used in the rocket.
-
-## CAD
-### Overview
-The `CAD` directory contains the design files for the rocket's structural components. These files can be used to fabricate the parts using 3D printing or other manufacturing methods.
-
-### Images
-![CAD Design](CAD/pic1.PNG)
-![CAD Design](CAD/pic2.PNG)
-![CAD Design](CAD/pic3.PNG)
-![CAD Design](CAD/pic4.PNG)
-![CAD Design](CAD/built.jpg)
-
-### Description
-CAD files are essential for ensuring the rocket's components fit together correctly and are robust enough to withstand the forces experienced during launch and flight. 
-
-### Design Highlights
-- `rocket_body.sldprt`: SolidWorks file for the main body of the rocket.
-- `fins.sldprt`: SolidWorks file for the rocket fins.
-
-## OpenRocket
-### Overview
-The `OpenRocket` directory contains simulation files for the rocket. These files can be used to simulate the rocket's flight characteristics and performance.
-
-### Images
-![Rocket Design](OpenRocket/Design.png)
-![Flight Simulation](OpenRocket/FlightSim.png)
-
-### Description
-OpenRocket is a free, fully-featured model rocket simulator that allows you to design and simulate the performance of rockets. The files in this directory include detailed simulations that help in predicting the flight path, stability, and performance of the rocket.
-
-### Simulation Highlights
-- `researchRocket2.ork`: OpenRocket file for the rocket simulation.
-- `FlightSim.png`: An image showing the results of the flight simulation.
+- `flightCode_Updated_v2.ino`: Contains the state machine that manages the drag tabs deployment using altimeter and accelerometer data.
 
 ## PCB Design
 ### Overview
@@ -77,6 +43,38 @@ PCB design is crucial for ensuring that the electronic components are securely m
 ### Design Highlights
 - `boardFinal.brd`: The final PCB design file.
 - `schematic.png`: Image of the schematic layout for the PCB.
+
+## CAD
+### Overview
+The `CAD` directory contains the design files for the rocket's structural components. These files can be used to fabricate the parts using 3D printing or other manufacturing methods.
+
+### Images
+![CAD Overview](CAD/cad_overview.png)
+![Rocket Design](CAD/rocket_design.png)
+![CAD Assembly](CAD/assembly.png)
+
+### Description
+CAD files are essential for ensuring the rocket's components fit together correctly and are robust enough to withstand the forces experienced during launch and flight. The CAD designs include detailed models of the rocket body, fins, nose cone, and other critical components.
+
+### Design Highlights
+- `rocket_body.sldprt`: SolidWorks file for the main body of the rocket.
+- `fins.sldprt`: SolidWorks file for the rocket fins.
+- `nose_cone.sldprt`: SolidWorks file for the rocket's nose cone.
+
+## OpenRocket
+### Overview
+The `OpenRocket` directory contains simulation files for the rocket. These files can be used to simulate the rocket's flight characteristics and performance.
+
+### Images
+![Rocket Design](OpenRocket/Design.png)
+![Flight Simulation](OpenRocket/FlightSim.png)
+
+### Description
+OpenRocket is a free, fully-featured model rocket simulator that allows you to design and simulate the performance of rockets. The files in this directory include detailed simulations that help in predicting the flight path, stability, and performance of the rocket.
+
+### Simulation Highlights
+- `researchRocket2.ork`: OpenRocket file for the rocket simulation.
+- `FlightSim.png`: An image showing the results of the flight simulation.
 
 ## Installation
 To install the software and code for this project, follow these steps:
