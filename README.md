@@ -18,8 +18,8 @@ This project is focused on the development of a model rocket, incorporating vari
 ### Overview
 The `Flight Software` section contains the code necessary for controlling the rocket's Active Drag System. This system adjusts the rocket's drag tabs based on readings from an altimeter and accelerometer to control the rocket's apogee.
 
-### Image
-![Flight Software](Flight%20Software/sample_image.png)
+### Block Diagram
+![Flight Software](Arduino%20Codes/blockDiagram.png)
 *(Replace `sample_image.png` with the actual image name if it exists in the `Flight Software` directory)*
 
 ### Description
