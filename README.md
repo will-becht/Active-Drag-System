@@ -4,8 +4,8 @@
 - [Introduction](#introduction)
 - [Flight Software](#flight-software)
 - [PCB Design](#pcb-design)
-- [CAD](#cad)
 - [OpenRocket](#openrocket)
+- [CAD](#cad)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -44,6 +44,21 @@ PCB design is crucial for ensuring that the electronic components are securely m
 - `boardFinal.brd`: The final PCB design file.
 - `schematic.png`: Image of the schematic layout for the PCB.
 
+## OpenRocket
+### Overview
+The `OpenRocket` directory contains simulation files for the rocket. These files can be used to simulate the rocket's flight characteristics and performance.
+
+### Images
+![Rocket Design](OpenRocket/Design.png)
+![Flight Simulation](OpenRocket/FlightSim.png)
+
+### Description
+OpenRocket is a free, fully-featured model rocket simulator that allows you to design and simulate the performance of rockets. The files in this directory include detailed simulations that help in predicting the flight path, stability, and performance of the rocket.
+
+### Simulation Highlights
+- `researchRocket2.ork`: OpenRocket file for the rocket simulation.
+- `FlightSim.png`: An image showing the results of the flight simulation.
+
 ## CAD
 ### Overview
 The `CAD` directory contains the design files for the rocket's structural components. These files can be used to fabricate the parts using 3D printing or other manufacturing methods.
@@ -62,21 +77,6 @@ CAD files are essential for ensuring the rocket's components fit together correc
 - `rocket_body.sldprt`: SolidWorks file for the main body of the rocket.
 - `fins.sldprt`: SolidWorks file for the rocket fins.
 - `nose_cone.sldprt`: SolidWorks file for the rocket's nose cone.
-
-## OpenRocket
-### Overview
-The `OpenRocket` directory contains simulation files for the rocket. These files can be used to simulate the rocket's flight characteristics and performance.
-
-### Images
-![Rocket Design](OpenRocket/Design.png)
-![Flight Simulation](OpenRocket/FlightSim.png)
-
-### Description
-OpenRocket is a free, fully-featured model rocket simulator that allows you to design and simulate the performance of rockets. The files in this directory include detailed simulations that help in predicting the flight path, stability, and performance of the rocket.
-
-### Simulation Highlights
-- `researchRocket2.ork`: OpenRocket file for the rocket simulation.
-- `FlightSim.png`: An image showing the results of the flight simulation.
 
 ## Installation
 To install the software and code for this project, follow these steps:
