@@ -54,10 +54,12 @@ OpenRocket is a model rocket simulator that allows you to design and simulate th
 The `CAD` directory contains the design files for the system's structural components. This model was created in SolidWorks, and the files can be used to fabricate the parts using 3D printing.
 
 ### Images
-![CAD Design](CAD/pic1.PNG =200x) 
-![CAD Design](CAD/pic2.PNG =200x) 
-![CAD Design](CAD/pic3.PNG =200x) 
-![CAD Design](CAD/pic4.PNG =200x)
+<div style="display: flex;">
+    <img src="CAD/pic1.PNG" alt="CAD Design" width="200" />
+    <img src="CAD/pic2.PNG" alt="CAD Design" width="200" />
+    <img src="CAD/pic3.PNG" alt="CAD Design" width="200" />
+    <img src="CAD/pic4.PNG" alt="CAD Design" width="200" />
+</div>
 ![CAD Design](CAD/built.jpg)
 
 ### Description
