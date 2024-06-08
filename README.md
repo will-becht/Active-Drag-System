@@ -34,10 +34,10 @@ The Arduino code is crucial for ensuring the rocket operates as intended. It han
 The `CAD` directory contains the design files for the rocket's structural components. These files can be used to fabricate the parts using 3D printing or other manufacturing methods.
 
 ### Images
-![CAD Design](CAD/pic1.png)
-![CAD Design](CAD/pic1.png)
-![CAD Design](CAD/pic1.png)
-![CAD Design](CAD/pic1.png)
+![CAD Design](CAD/pic1.PNG)
+![CAD Design](CAD/pic2.PNG)
+![CAD Design](CAD/pic3.PNG)
+![CAD Design](CAD/pic4.PNG)
 ![CAD Design](CAD/built.jpg)
 
 ### Description
