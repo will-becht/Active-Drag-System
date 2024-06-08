@@ -1,0 +1,25 @@
+Buzzer: SparkFun-Electromechanical/BUZZER/BUZZER-PTH
+
+Servo: SparkFun-Electromechanical/SERVO
+
+Teensy: teensy/TEENSY41-E
+
+IMU: BNO055
+
+Altimeter: MPL3115A2
+
+Bluetooth: HM-11
+
+Serial Memory Chip: W25Q256JVFIQ
+
+Battery Terminal: adafruit/1X2-3.5MM
+
+Voltage Regulator: TSR_2-2450
+
+Capacitor: SparkFun-Capacitors/22PF/22PF-PTH-2.54MM-200V-5%
+
+5V Symbol: SparkFun-PowerSymbols/5V
+
+GND Symbol: SparkFun-PowerSymbols/GND
+
+
