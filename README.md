@@ -15,17 +15,17 @@ Due to time constraints and a focus on the main competition vehicle, the non-com
 
 ## Flight Software
 ### Overview
-The `Arduino Codes` directory contains the code necessary for controlling the rocket's Active Drag System. This system adjusts the rocket's drag tabs based on readings from an altimeter and accelerometer to control the rocket's apogee. The system is controlled before launch using a Bluetooth module that can connect to a user's phone, allowing for the constant monitoring of flight readiness once the system is installed in the vehicle. Data is redundantly saved to an onboard flash memory chip and SD for storage and post-flight analysis.
+The `Arduino Codes` directory contains the code necessary for controlling the vehicle's Active Drag System. This system adjusts the vehicle's drag tabs based on readings from an altimeter and accelerometer to control the vehicle's apogee. The system is controlled before launch using a Bluetooth module that can connect to a user's phone, allowing for the constant monitoring of flight readiness once the system is installed in the vehicle. Data is redundantly saved to an onboard flash memory chip and SD for storage and post-flight analysis.
 
 ### Block Diagram
 ![Flight Software](Arduino%20Codes/blockDiagram.png)
 
 ### Description
-The flight software implements a state machine to manage the deployment of drag tabs in the Active Drag System. This system actively modulates the drag during flight to achieve a desired apogee by processing real-time data from the altimeter and accelerometer. The state machine ensures that the drag tabs are deployed or retracted based on the rocket's altitude and acceleration, thus controlling the peak altitude accurately.
+The flight software implements a state machine to manage the deployment of drag tabs in the Active Drag System. This system actively modulates the drag during flight to achieve a desired apogee by processing real-time data from the altimeter and accelerometer. The state machine ensures that the drag tabs are deployed or retracted based on the vehicle's altitude and acceleration, thus controlling the peak altitude accurately.
 
 ## PCB Design
 ### Overview
-The `PCB Design` directory contains all the files related to the design and manufacturing of the rocket's printed circuit boards (PCBs). These PCBs are used to integrate the electronic components necessary for the rocket's operation.
+The `PCB Design` directory contains all the files related to the design and manufacturing of the vehicle's printed circuit boards (PCBs). These PCBs are used to integrate the electronic components necessary for the vehicle's operation.
 
 ### Images
 ![Top Layer](PCB%20Design/Images/topLayer.png)
@@ -33,18 +33,14 @@ The `PCB Design` directory contains all the files related to the design and manu
 ![Schematic](PCB%20Design/Images/schematic.png)
 
 ### Description
-PCB design is crucial for ensuring that the electronic components are securely mounted and connected properly. The files in this directory include design files, Gerber files for manufacturing, and images showing different layers and the schematic of the PCB.
-
-### Design Highlights
-- `boardFinal.brd`: The final PCB design file.
-- `schematic.png`: Image of the schematic layout for the PCB.
+PCB design is crucial for ensuring that the electronic components are connected properly. The files in this directory include design files, Gerber files for manufacturing, libraries for making the schematics, and images showing different layers and the schematic of the PCB. 
 
 ## OpenRocket
 ### Overview
-The `OpenRocket` directory contains simulation files for the rocket. These files can be used to simulate the rocket's flight characteristics and performance.
+The `OpenRocket` directory contains simulation files for the vehicle. These files can be used to simulate the vehicle's flight characteristics and performance.
 
 ### Images
-![Rocket Design](OpenRocket/Design.png)
+![Vehicle Design](OpenRocket/Design.png)
 ![Flight Simulation](OpenRocket/FlightSim.png)
 
 ### Description
