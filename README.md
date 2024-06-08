@@ -49,9 +49,11 @@ PCB design is crucial for ensuring that the electronic components are securely m
 The `CAD` directory contains the design files for the rocket's structural components. These files can be used to fabricate the parts using 3D printing or other manufacturing methods.
 
 ### Images
-![CAD Overview](CAD/cad_overview.png)
-![Rocket Design](CAD/rocket_design.png)
-![CAD Assembly](CAD/assembly.png)
+![CAD Design](CAD/pic1.PNG)
+![CAD Design](CAD/pic2.PNG)
+![CAD Design](CAD/pic3.PNG)
+![CAD Design](CAD/pic4.PNG)
+![CAD Design](CAD/built.jpg)
 
 ### Description
 CAD files are essential for ensuring the rocket's components fit together correctly and are robust enough to withstand the forces experienced during launch and flight. The CAD designs include detailed models of the rocket body, fins, nose cone, and other critical components.
